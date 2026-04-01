@@ -1,0 +1,403 @@
+{
+  "Garten_Bar_Checklist (1).xlsx": [
+    [],
+    [
+      null,
+      null,
+      "GÄRTEN - BAR AREA CHECKLIST"
+    ],
+    [],
+    [
+      null,
+      null,
+      "Branch: [Trivium / Lake Town]    Date: __________    Shift: [AM / PM]"
+    ],
+    [],
+    [
+      "Section",
+      "Task Description",
+      "Completed?",
+      "Issues Faced",
+      "Action Taken",
+      "Signature",
+      "Photo Ref",
+      "Timestamp"
+    ],
+    [
+      "OPENING - BAR AREA"
+    ],
+    [
+      null,
+      "Station Setup: Sanitize bar counter (top and bottom), sinks, and prep surfaces."
+    ],
+    [
+      null,
+      "Equipment Check: Turn on coffee machine, blender, and juicers; ensure all are working."
+    ],
+    [
+      null,
+      "Coffee Calibration: Dial in espresso grinder, check extraction time and temperature."
+    ],
+    [
+      null,
+      "Bar Tools: Organize shakers, strainers, spoons, and jiggers; ensure all are present."
+    ],
+    [
+      null,
+      "Prep & Stock: Prepare garnishes (citrus, herbs), check syrups and juices."
+    ],
+    [
+      null,
+      "Ice Supply: Fill ice bins with fresh, clean ice."
+    ],
+    [
+      null,
+      "Glassware: Ensure all glasses are polished and stored correctly."
+    ],
+    [
+      null,
+      "Fridge Check: Check temperatures, restock bottled drinks (FIFO)."
+    ],
+    [
+      null,
+      "Drains & Sinks: Ensure bar drains are clean and sinks are organized."
+    ],
+    [
+      null,
+      "Expiry Dates: Check expiry dates of all bar products."
+    ],
+    [
+      null,
+      "Stock Analysis: Check and analyze stock levels for daily sales."
+    ],
+    [
+      "CLOSING - BAR AREA"
+    ],
+    [
+      null,
+      "Equipment Cleaning: Backflush espresso machine, clean blender jars."
+    ],
+    [
+      null,
+      "Surface Sanitation: Deep clean bar mats, sinks, and counters."
+    ],
+    [
+      null,
+      "Stock Inventory: Record low items, store perishables in fridge."
+    ],
+    [
+      null,
+      "Fridge Maintenance: Wipe down fridge interiors, check seals."
+    ],
+    [
+      null,
+      "Glassware: Wash and polish all used glassware."
+    ],
+    [
+      null,
+      "Trash & Drains: Empty bar bins, flush drains with hot water/sanitizer."
+    ],
+    [
+      null,
+      "Power Down: Turn off non-essential bar equipment."
+    ],
+    [],
+    [
+      "Manager on Duty Signature: ____________________",
+      null,
+      null,
+      null,
+      "Operations Manager Signature: ____________________"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "Garten_Service_Checklist.xlsx": [
+    [],
+    [
+      null,
+      null,
+      "GÄRTEN - SERVICE AREA CHECKLIST"
+    ],
+    [],
+    [
+      null,
+      null,
+      "Branch: [Trivium / Lake Town]    Date: __________    Shift: [AM / PM]"
+    ],
+    [],
+    [
+      "Section",
+      "Task Description",
+      "Completed?",
+      "Issues Faced",
+      "Action Taken",
+      "Signature",
+      "Photo Ref",
+      "Timestamp"
+    ],
+    [
+      "OPENING - EXTERIOR & ENTRANCE"
+    ],
+    [
+      null,
+      "Entrance & Exterior: Sweep entrance, clean glass doors, check signage."
+    ],
+    [
+      null,
+      "Glass & Mirrors: Ensure all entrance glass and mirrors are clean and shiny."
+    ],
+    [
+      null,
+      "Black Pillars/Columns: Wipe down and ensure they are dust-free."
+    ],
+    [
+      null,
+      "Outdoor Area: Sweep floor and ensure floor dividers are clean."
+    ],
+    [
+      null,
+      "Outdoor Furniture: Clean tables (top and bottom) and ensure chairs are clean and stable."
+    ],
+    [
+      null,
+      "Heaters: Check condition of gas/electric heaters."
+    ],
+    [
+      null,
+      "Plants: Ensure all plants are clean and healthy."
+    ],
+    [
+      null,
+      "Lighting: Check that all outdoor lighting is clean and functioning."
+    ],
+    [
+      "OPENING - DINING AREA (INDOOR)"
+    ],
+    [
+      null,
+      "Dining Area: Align tables/chairs, check for wobbles, wipe surfaces."
+    ],
+    [
+      null,
+      "Table Setup: Place clean menus, polished cutlery, napkins, and condiments."
+    ],
+    [
+      null,
+      "Condiments: Ensure salt, pepper, ashtrays, and menu holders are clean and full."
+    ],
+    [
+      null,
+      "Decoration: Wipe down all indoor decorations and ensure they are dust-free."
+    ],
+    [
+      null,
+      "Walls & Fences: Clean black walls and fences, ensuring they are dust-free."
+    ],
+    [
+      null,
+      "Curtains: Check that curtains are clean and in good condition."
+    ],
+    [
+      null,
+      "Under Tables: Ensure the area under every table is clean and free of stickers/debris."
+    ],
+    [
+      null,
+      "Side Stations: Stock with extra napkins, cutlery, water carafes, and menus; ensure they are organized."
+    ],
+    [
+      null,
+      "Lighting & Ambience: Set lights to standard, start background music."
+    ],
+    [
+      null,
+      "Restrooms: Check cleanliness, stock toilet paper, soap, and towels."
+    ],
+    [
+      null,
+      "POS System: Log in, check printer paper, ensure cash drawer is ready and cables are organized."
+    ],
+    [
+      null,
+      "Camera System: Verify that the camera system is working correctly."
+    ],
+    [
+      null,
+      "Fire Safety: Ensure fire extinguishers are present and in their designated places."
+    ],
+    [
+      null,
+      "Staff Briefing: Review daily specials, 86'd items, and shift goals."
+    ],
+    [
+      null,
+      "Uniform & Grooming: Ensure all staff meet grooming and uniform standards (clean, ironed, complete)."
+    ],
+    [
+      "CLOSING - SERVICE AREA"
+    ],
+    [
+      null,
+      "Guest Check: Ensure all guests have departed before starting procedures."
+    ],
+    [
+      null,
+      "Table Clearing: Clear all remaining items, sanitize tables and chairs."
+    ],
+    [
+      null,
+      "Floor Care: Sweep and mop the entire dining area (indoor and outdoor)."
+    ],
+    [
+      null,
+      "Side Stations: Clean and restock for the next shift."
+    ],
+    [
+      null,
+      "Menu Maintenance: Wipe down all menus and discard damaged ones."
+    ],
+    [
+      null,
+      "Trash Removal: Empty all FOH bins and sanitize."
+    ],
+    [
+      null,
+      "POS Closing: Reconcile cash, print end-of-day reports, log out."
+    ],
+    [
+      null,
+      "Security: Lock all doors, turn off non-essential lights and music."
+    ],
+    [],
+    [
+      "Manager on Duty Signature: ____________________",
+      null,
+      null,
+      null,
+      "Operations Manager Signature: ____________________"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "Garten_Shisha_Checklist.xlsx": [
+    [
+      null,
+      null,
+      "GÄRTEN - SHISHA AREA CHECKLIST"
+    ],
+    [],
+    [
+      null,
+      null,
+      "Branch: [Trivium / Lake Town]    Date: __________    Shift: [AM / PM]"
+    ],
+    [],
+    [
+      "Section",
+      "Task Description",
+      "Completed?",
+      "Issues Faced",
+      "Action Taken",
+      "Signature",
+      "Photo Ref",
+      "Timestamp"
+    ],
+    [
+      "OPENING - SHISHA AREA"
+    ],
+    [
+      null,
+      "Area Prep: Sweep shisha lounge, arrange seating and cushions."
+    ],
+    [
+      null,
+      "Equipment Inspection: Check shisha pipes for cracks or leaks."
+    ],
+    [
+      null,
+      "Cleaning: Sanitize hoses and bases, ensure they are dry and odor-free."
+    ],
+    [
+      null,
+      "Coal Station: Prepare coal burners, ensure adequate coal supply."
+    ],
+    [
+      null,
+      "Tobacco Stock: Organize flavors, check freshness and stock levels."
+    ],
+    [
+      null,
+      "Accessories: Stock disposable tips, tongs, and foil/HMDs."
+    ],
+    [
+      null,
+      "Ventilation: Turn on exhaust fans, check air quality."
+    ],
+    [
+      "CLOSING - SHISHA AREA"
+    ],
+    [
+      null,
+      "Coal Safety: Safely extinguish all remaining coals in water/sand."
+    ],
+    [
+      null,
+      "Pipe Breakdown: Disassemble shishas, empty bases, rinse thoroughly."
+    ],
+    [
+      null,
+      "Hose Care: Hang hoses to dry, sanitize handles."
+    ],
+    [
+      null,
+      "Station Cleanup: Clean coal burners and surrounding area."
+    ],
+    [
+      null,
+      "Inventory: Record tobacco usage, store containers airtight."
+    ],
+    [
+      null,
+      "Trash Removal: Empty ash trays and shisha area bins."
+    ],
+    [
+      null,
+      "Power Down: Turn off coal burners and exhaust fans."
+    ],
+    [],
+    [
+      "Manager on Duty Signature: ____________________",
+      null,
+      null,
+      null,
+      "Operations Manager Signature: ____________________"
+    ]
+  ]
+}

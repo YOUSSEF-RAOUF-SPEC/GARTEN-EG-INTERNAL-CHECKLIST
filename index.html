@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>GÄRTEN Internal Checklist</title>
+  
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Excel Generator -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.3.0/exceljs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="app">
+  <!-- Global Header -->
+  <header class="header">
+    <button id="btn-back" class="back-btn hidden"><i class="fas fa-chevron-left"></i></button>
+    <h1>GÄRTEN</h1>
+    <div style="width: 28px;"></div> <!-- Spacer for flex alignment -->
+  </header>
+
+  <!-- SCREEN 1: Branch Selection -->
+  <div id="screen-branch" class="screen active">
+    <div class="title-desc">
+      <h2>Welcome</h2>
+      <p>Select your branch to begin</p>
+    </div>
+    <div class="card-grid">
+      <div class="card" onclick="app.selectBranch('Trivium Square')">
+        <i class="fas fa-building"></i>
+        <h3>Trivium Square</h3>
+      </div>
+      <div class="card" onclick="app.selectBranch('Lake Town')">
+        <i class="fas fa-water"></i>
+        <h3>Lake Town</h3>
+      </div>
+      <div class="card" onclick="app.selectBranch('Telal')">
+        <i class="fas fa-umbrella-beach"></i>
+        <h3>Telal</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCREEN 2: Login -->
+  <div id="screen-login" class="screen">
+    <div class="title-desc">
+      <h2 id="login-branch-title">Branch</h2>
+      <p>Please enter your credentials</p>
+    </div>
+    <div class="glass" style="padding: 1.5rem; border-radius: var(--radius-md);">
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="input-password" class="input-el" placeholder="Enter your password...">
+      </div>
+      <button class="btn-primary" onclick="app.handleLogin()">Login</button>
+      <p id="login-error" style="color: var(--danger); font-size: 0.875rem; margin-top: 1rem; text-align: center;" class="hidden">Invalid credentials</p>
+    </div>
+  </div>
+
+  <!-- SCREEN 3: Dashboard -->
+  <div id="screen-dashboard" class="screen">
+    <div class="dash-info">
+      <h2 id="dash-greeting">Hello, User</h2>
+      <p><i class="fas fa-map-marker-alt"></i> <span id="dash-branch">Branch</span></p>
+      <p><i class="fas fa-user-shield"></i> <span id="dash-role">Role</span></p>
+    </div>
+
+    <div id="admin-controls" class="admin-actions hidden">
+      <button onclick="app.openAdminModal('password')">
+        <i class="fas fa-key"></i> Change Password
+      </button>
+      <button onclick="app.openAdminModal('checkpoints')" id="btn-manage-points">
+        <i class="fas fa-list-check"></i> Manage Points
+      </button>
+      <button onclick="app.openAdminModal('users')" id="btn-manage-users" class="hidden">
+        <i class="fas fa-users-cog"></i> Manage Users
+      </button>
+    </div>
+
+    <h3 style="margin-bottom: 1rem;">Available Checklists</h3>
+    <div class="card-grid" id="dashboard-checklists">
+      <!-- Injected by JS -->
+    </div>
+  </div>
+
+  <!-- SCREEN 4: Active Checklist -->
+  <div id="screen-checklist" class="screen">
+    <div class="title-desc" style="margin-bottom: 1rem;">
+      <h2 id="checklist-title">Checklist Name</h2>
+      <p id="checklist-progress">0/0 Completed</p>
+    </div>
+
+    <div id="checklist-container">
+      <!-- Injected by JS -->
+    </div>
+
+    <div id="submit-btn-container" style="margin-top: 2rem;">
+      <button class="btn-primary" onclick="app.generateExcel()">Submit & Download Excel Report</button>
+    </div>
+  </div>
+
+  <!-- Admin Modal -->
+  <div id="admin-modal" class="modal-overlay">
+    <div class="modal-content glass">
+      <div class="modal-header">
+        <h3 id="modal-title">Admin Control</h3>
+        <button class="close-modal" onclick="app.closeModal()"><i class="fas fa-times"></i></button>
+      </div>
+      <div id="modal-body">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Shift Selection Modal -->
+  <div id="shift-modal" class="modal-overlay">
+    <div class="modal-content glass" style="text-align: center;">
+      <div class="modal-header" style="justify-content: center;">
+        <h3 id="modal-shift-title">Select Shift</h3>
+        <button class="close-modal" style="position: absolute; right: 1.5rem;" onclick="document.getElementById('shift-modal').classList.remove('active')"><i class="fas fa-times"></i></button>
+      </div>
+      <button class="btn-primary" onclick="app.startShift('OPENING')" style="margin-bottom: 1rem;"><i class="fas fa-sun"></i> Morning (Opening)</button>
+      <button class="btn-secondary" onclick="app.startShift('CLOSING')"><i class="fas fa-moon"></i> Evening (Closing)</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
